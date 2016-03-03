@@ -531,18 +531,3 @@ body {
     position: relative;
     padding-bottom: 10%;
 }
-/***************************************************/
-.contac-form{
-	text-align:left;
-}
-.mmh{
-	color:#fff;
-	background-color:#f05f40;
-	border-radius:5px 5px 0px 0px;
-}
-.form-group{
-	margin:0px;
-}
-.form-group.fg-with-button{
-	margin-top:10px;
-}
