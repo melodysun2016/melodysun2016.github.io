@@ -1,3 +1,7 @@
+$(window).load(function () {
+	$('#loading').delay(500).fadeOut('slow');
+    $('#loading-holder').delay(500).fadeOut('slow');
+});
 jQuery(document).ready(function(){
 	$('.carousel').carousel({
         interval: 5000 //changes the speed
