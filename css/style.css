@@ -48,9 +48,23 @@ legend.scheduler-border {
 .back-to-top-btn:hover{
     color:#333333;
 }
-/*header .header-content {
-    padding: 100px 15px;
+#loading-holder { 
+	position: fixed;
+    background: #050505;
+	z-index: 9999;
+    top: 0;
+	bottom: 0;
+    left: 0;
+    right: 0;  
 }
-header .header-content .header-content-inner {
-	vertical-align:top;
-}*/
+#loading{
+    background-image: url(../img/loading.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    position: absolute;
+    top: 50%;
+    width: 200px;
+}
