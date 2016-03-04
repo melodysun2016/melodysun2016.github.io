@@ -1,4 +1,8 @@
 jQuery(document).ready(function(){
+	$('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+	$("#backtotopbtn").backToTop();
 	$('#contact_form').validator().on('submit', function (e) {
 	    if (e.isDefaultPrevented()) {
 		    
